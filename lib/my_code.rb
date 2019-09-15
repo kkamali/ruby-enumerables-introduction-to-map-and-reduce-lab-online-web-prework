@@ -45,7 +45,6 @@ end
 
 def reduce_to_total(source_array, starting_point = 0)
   total = starting_point
-  puts starting_point
   while counter < source_array.length do
     total += source_array[counter]
     counter += 1
